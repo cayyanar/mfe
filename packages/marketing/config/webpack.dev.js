@@ -26,7 +26,8 @@ exposes : {
       shared : packageJson.dependecies,
         }),
         new HtmlWebpackPlugin ({
-            template : './public/index.html'
+            template : './public/index.html',
+            minify: false
         })
     ]
 };
