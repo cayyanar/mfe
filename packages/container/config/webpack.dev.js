@@ -7,7 +7,7 @@ const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPl
 const packageJson = require ('../package.json');
 
 
-
+//test
 
 const devConfig = {
     mode : 'development' ,
