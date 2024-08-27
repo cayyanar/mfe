@@ -2,11 +2,17 @@ import React from 'react';
 
 import MarketingApp from './components/MarketingApp';
 
-export default() => {
-    return <div>
-        <h1>Hi there !</h1>
-        <hr/>
-        <MarketingApp/>
+import Header from './components/Header';
+import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+
+export default () => {
+    return (
+    <BrowserRouter>
+      <div>
+        <Header />
+        <MarketingApp />
         
     </div>
+    </BrowserRouter>
+    );
 };
